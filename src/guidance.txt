@@ -1,0 +1,6 @@
+Problems:Create Testing.xml dan display Downloading from external resources is disabled in XML 
+Solutions: https://stackoverflow.com/questions/77252112/downloading-from-external-resources-is-disabled-in-hibernate-dtd
+
+Problems: When Running TestNG , its does error on console output
+Solutions: Moving TestNG Library from ModulePath to ClassPath
+
