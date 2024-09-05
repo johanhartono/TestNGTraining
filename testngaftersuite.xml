@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="test_suite">  
+
+<test name="Module 1">  
+<classes>  
+<class name="com.javatpoint.afterSuite.Module1"/>  
+</classes>  
+</test> <!-- Test --> 
+ 
+<test name="Module 2">  
+<classes>  
+<class name="com.javatpoint.afterSuite.Module2"/>  
+</classes>  
+</test> <!-- Test -->  
+
+</suite> <!-- Suite -->  

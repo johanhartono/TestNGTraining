@@ -1,6 +1,14 @@
-Problems:Create Testing.xml dan display Downloading from external resources is disabled in XML 
+Tutorial Source: https://www.javatpoint.com/testng-tutorial
+
+This code using:
+IDE: Eclipse Version: 2024-06 (4.32.0)
+
+Problems:Create Testing.xml and 'display Downloading from external resources is disabled in XML '
 Solutions: https://stackoverflow.com/questions/77252112/downloading-from-external-resources-is-disabled-in-hibernate-dtd
+Go to top bar : Window -> Preference -> Maven -> tick the option ('download artifact javadoc').
+Thats is 'Apply & Close'.
 
 Problems: When Running TestNG , its does error on console output
 Solutions: Moving TestNG Library from ModulePath to ClassPath
 
+test your TestNG Knowledge: https://www.javatpoint.com/testng-interview-questions
