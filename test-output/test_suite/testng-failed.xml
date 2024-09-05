@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test_suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TimeOut Program(failed)">
+    <classes>
+      <class name="com.javatpoint.annotations.Time_out">
+        <methods>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- com.javatpoint.annotations.Time_out -->
+    </classes>
+  </test> <!-- TimeOut Program(failed) -->
+</suite> <!-- Failed suite [test_suite] -->

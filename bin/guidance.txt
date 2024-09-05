@@ -1,4 +1,9 @@
-Tutorial Source: https://www.javatpoint.com/testng-tutorial
+Tutorial Source: 
+1. Free: https://www.javatpoint.com/testng-tutorial
+2. Free: https://www.toolsqa.com/testng/what-is-testng/
+3. Paid: 
+
+TestNG Official web site: https://testng.org/#_welcome_to_testng
 
 This code using:
 IDE: Eclipse Version: 2024-06 (4.32.0)

@@ -9,6 +9,6 @@ public class Multiply
 public void add(int c, int d)  
 {  
 int mul=c*d;  
-System.out.println("Multiplication of two numbers : "+mul);  
+	System.out.println("Multiplication of two numbers : "+mul);  
 }  
 }  

@@ -1,6 +1,6 @@
 import org.testng.annotations.*;
 
-//Sample Explanation the Usage for TestNg running sequences
+//Sample Explanation the Usage for TestNg running sequences/hierarchies
 public class sequenceTestNG {
 	
 
@@ -11,17 +11,17 @@ public class sequenceTestNG {
 	
 	@BeforeTest
 	public void preparingTest1() {
-		System.out.println("Executing Preparing Test 1");
+		System.out.println("Executing Before Test -> Preparing Test 1");
 	}
 	
 	@BeforeClass
 	public void beforeClass() {
-		System.out.println("Executing Before Test  Class");
+		System.out.println("Executing Before Class");
 	}
 
 	@BeforeMethod
 	public void beforeMethod() {
-		System.out.println("Executing Before Test Methods");
+		System.out.println("Executing Before Method");
 	}
 
 	@Test
@@ -39,12 +39,12 @@ public class sequenceTestNG {
 	}
 	@AfterMethod
 	public void afterMethod() {
-		System.out.println("Executing After Test Methods");
+		System.out.println("Executing After Method");
 	}
 	
 	@AfterClass
 	public void afterClassMethod() {
-		System.out.println("Executing After Class Methods");
+		System.out.println("Executing After Class");
 	}
 
 	@AfterTest
@@ -54,7 +54,7 @@ public class sequenceTestNG {
 
 	@AfterSuite
 	public void afterSuiteMethod() {
-		System.out.println("Executing After Test Suite");
+		System.out.println("Executing After Suite");
 	}
 
 }

@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+
 <suite name="test_suite">  
 
-<test name="IT Department">  
-	<classes>  
-		<class name="com.javatpoint.it_department"/>  
-	</classes>  
-</test> <!-- Test -->  
-
-<test name="HR Department">  
-	<classes>  
-		<class name="com.javatpoint.hr_department"/>  
-	</classes>  
-</test> <!-- Test --> 
- 
+	<test name="IT Department">  
+		<classes>  
+			<class name="com.javatpoint.it_department"/>  
+		</classes>  
+	</test> <!-- Test -->  
+	
+	<test name="HR Department">  
+		<classes>  
+			<class name="com.javatpoint.hr_department"/>  
+		</classes>  
+	</test> <!-- Test --> 
+	 
 </suite> <!-- Suite -->  

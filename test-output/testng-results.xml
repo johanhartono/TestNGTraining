@@ -2,68 +2,28 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-05T14:56:20 WIB" name="Suite" finished-at="2024-09-05T14:56:20 WIB" duration-ms="163">
+  <suite started-at="2024-09-05T17:44:35 WIB" name="Default suite" finished-at="2024-09-05T17:44:35 WIB" duration-ms="45">
     <groups>
+      <group name="SignIn">
+        <method signature="GroupDependentTestMethods.LogIn()[pri:0, instance:com.toolsqa.GroupDependentTestMethods@659499f1]" name="LogIn" class="com.toolsqa.GroupDependentTestMethods"/>
+        <method signature="GroupDependentTestMethods.OpenBrowser()[pri:0, instance:com.toolsqa.GroupDependentTestMethods@659499f1]" name="OpenBrowser" class="com.toolsqa.GroupDependentTestMethods"/>
+      </group> <!-- SignIn -->
     </groups>
-    <test started-at="2024-09-05T14:56:20 WIB" name="Sum" finished-at="2024-09-05T14:56:20 WIB" duration-ms="52">
-      <class name="com.javatpoint.parameters.Sum">
-        <test-method signature="add(int,int)[pri:0, instance:com.javatpoint.parameters.Sum@76c3e77a]" started-at="2024-09-05T14:56:20 WIB" name="add" finished-at="2024-09-05T14:56:20 WIB" duration-ms="16" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-09-05T17:44:35 WIB" name="Default test" finished-at="2024-09-05T17:44:35 WIB" duration-ms="45">
+      <class name="com.toolsqa.GroupDependentTestMethods">
+        <test-method signature="LogIn()[pri:0, instance:com.toolsqa.GroupDependentTestMethods@659499f1]" started-at="2024-09-05T17:44:35 WIB" name="LogIn" finished-at="2024-09-05T17:44:35 WIB" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- add -->
-      </class> <!-- com.javatpoint.parameters.Sum -->
-    </test> <!-- Sum -->
-    <test started-at="2024-09-05T14:56:20 WIB" name="Subtract" finished-at="2024-09-05T14:56:20 WIB" duration-ms="5">
-      <class name="com.javatpoint.parameters.Subtract">
-        <test-method signature="add(int,int)[pri:0, instance:com.javatpoint.parameters.Subtract@957e06]" started-at="2024-09-05T14:56:20 WIB" name="add" finished-at="2024-09-05T14:56:20 WIB" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- LogIn -->
+        <test-method signature="OpenBrowser()[pri:0, instance:com.toolsqa.GroupDependentTestMethods@659499f1]" started-at="2024-09-05T17:44:35 WIB" name="OpenBrowser" finished-at="2024-09-05T17:44:35 WIB" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- add -->
-      </class> <!-- com.javatpoint.parameters.Subtract -->
-    </test> <!-- Subtract -->
-    <test started-at="2024-09-05T14:56:20 WIB" name="Multiply" finished-at="2024-09-05T14:56:20 WIB" duration-ms="6">
-      <class name="com.javatpoint.parameters.Multiply">
-        <test-method signature="add(int,int)[pri:0, instance:com.javatpoint.parameters.Multiply@21282ed8]" started-at="2024-09-05T14:56:20 WIB" name="add" finished-at="2024-09-05T14:56:20 WIB" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="ViewAcc()[pri:0, instance:com.toolsqa.GroupDependentTestMethods@659499f1]" started-at="2024-09-05T17:44:35 WIB" name="ViewAcc" depends-on-groups="SignIn" finished-at="2024-09-05T17:44:35 WIB" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- add -->
-      </class> <!-- com.javatpoint.parameters.Multiply -->
-    </test> <!-- Multiply -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- ViewAcc -->
+      </class> <!-- com.toolsqa.GroupDependentTestMethods -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

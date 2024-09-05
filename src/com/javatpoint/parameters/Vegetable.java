@@ -8,13 +8,13 @@ public class Vegetable
 @Parameters("Cauliflower")  
 public void c(String m)  
 {  
-System.out.println("Vegetable names are :");  
-System.out.println(m);  
+	System.out.println("Vegetable names are :");  
+	System.out.println(m);  
 }  
 @Test  
 @Parameters("Ladyfinger")  
 public void orange(String l)  
 {  
-System.out.println(l);  
+	System.out.println(l);  
 }  
 }  

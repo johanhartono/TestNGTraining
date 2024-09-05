@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+
+<suite name="test_suite">  
+
+	<test name="Priority">  
+	
+		<classes>  
+			<class name="com.javatpoint.annotations.Priority"/>  
+		</classes>  
+		
+	</test> <!-- Test -->  
+	
+	<test name="TimeOut Program">  
+	
+		<classes>  
+			<class name="com.javatpoint.annotations.Time_out"/>  
+		</classes>  
+		
+	</test> <!-- Test -->  
+	
+	<test name="Enabled">  
+	
+		<classes>  
+			<class name="com.javatpoint.annotations.Enabled"/>  
+		</classes>  
+		
+	</test> <!-- Test -->  
+	
+</suite> <!-- Suite -->  

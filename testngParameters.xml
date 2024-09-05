@@ -5,20 +5,35 @@
 <parameter name="a" value="5"/>  
 <parameter name="b" value="3"/>  
 	<test name="Sum">   
-	  <classes>  
-	  	<class name= "com.javatpoint.parameters.Sum"/>  
-	  </classes>  
-  	</test> <!-- Test -->  
-  <test name="Subtract">  
-	  <classes>  
-	  <class name="com.javatpoint.parameters.Subtract"/>  
-	  </classes>  
-  </test>  
-  
-  <test name="Multiply">  
-	  <classes>  
-	  	<class name="com.javatpoint.parameters.Multiply"/>  
-	  </classes>  
-  </test>  
-  
+		  <classes>  
+		  	<class name= "com.javatpoint.parameters.Sum"/>  
+		  </classes>  
+	  	</test> <!-- Test -->  
+	  <test name="Subtract">  
+		  <classes>  
+		  <class name="com.javatpoint.parameters.Subtract"/>  
+		  </classes>  
+	  </test>  
+	  
+	  <test name="Multiply">  
+		  <classes>  
+		  	<class name="com.javatpoint.parameters.Multiply"/>  
+		  </classes>  
+	  </test>  
+	  <test name="Fruits">   
+		<parameter name="mango" value="mango"/>  
+		<parameter name="orange" value="orange"/>  
+			<classes>  
+				<class name= "com.javatpoint.parameters.Fruits"/>  
+			</classes>  
+	</test>  
+			
+	<test name="Vegetables">   
+			<parameter name="Cauliflower" value="Cauliflower"/>  
+			<parameter name="Ladyfinger" value="Ladyfinger"/>  
+			<classes>  
+				<class name= "com.javatpoint.parameters.Vegetable"/>  
+			</classes>  
+	</test>  
 </suite> <!-- Suite -->  
+

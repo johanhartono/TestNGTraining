@@ -2,22 +2,22 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
 <suite name="test_suite">  
 
-<test name="Car Loan">  
-	<classes>  
-		<class name="com.javatpoint.beforeSuite.Car_loan"/>  
-	</classes>  
-</test> <!-- Test -->  
-
-<test name="Home Loan">  
-	<classes>  
-		<class name="com.javatpoint.beforeSuite.Home_loan"/>  
-	</classes>  
-</test>  <!-- Test --> 
-
-<test name="Personal Loan">  
-	<classes>  
-		<class name="com.javatpoint.beforeSuite.Personal_loan"/>  
-	</classes>  
-</test> <!-- Test -->   
+	<test name="Car Loan">  
+		<classes>  
+			<class name="com.javatpoint.beforeSuite.Car_loan"/>  
+		</classes>  
+	</test> <!-- Test -->  
+	
+	<test name="Home Loan">  
+		<classes>  
+			<class name="com.javatpoint.beforeSuite.Home_loan"/>  
+		</classes>  
+	</test>  <!-- Test --> 
+	
+	<test name="Personal Loan">  
+		<classes>  
+			<class name="com.javatpoint.beforeSuite.Personal_loan"/>  
+		</classes>  
+	</test> <!-- Test -->   
 
 </suite> <!-- Suite -->  

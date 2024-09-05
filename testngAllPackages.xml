@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+
+<suite name="test_suite_all_packages">
+
+   <test name="TestNG all packages">
+   
+     <packages>
+     	<package name="com.javatpoint.annotations"/>
+     	<package name="com.javatpoint.afterClass"/>
+       	<package name="com.javatpoint.afterGroups"/>
+     </packages>
+     
+   </test>
+   
+ </suite> <!-- Suite -->  
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

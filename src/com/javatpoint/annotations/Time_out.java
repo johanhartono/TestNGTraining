@@ -10,7 +10,7 @@ Thread.sleep(500);
 System.out.println("This is testcase1");  
 }  
 @Test    
-public void testcaes2()  
+public void testcase2()  
 {  
 System.out.println("This is testcase2");  
     }  

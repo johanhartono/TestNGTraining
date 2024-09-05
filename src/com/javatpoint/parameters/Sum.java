@@ -9,6 +9,6 @@ public class Sum
 public void add(int c, int d)  
 {  
 int sum=c+d;  
-System.out.println("Sum of two numbers : "+sum);  
+	System.out.println("Sum of two numbers : "+sum);  
 }  
 }  

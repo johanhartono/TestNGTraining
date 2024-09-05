@@ -13,5 +13,6 @@
 		  	<class name="com.javatpoint.afterTest.Fixed_deposit"/>  
 		 </classes>  
 	</test> <!-- Test -->  
+	
  </suite> <!-- Suite -->  
   

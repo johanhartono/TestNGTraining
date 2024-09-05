@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
-<suite name="test_suite">  
+
+<suite name="test_suite_after_class">  
+
 	<test name="Before Class">  
+	
 		<classes>  
 			<class name="com.javatpoint.afterClass.Class1"/>  
 			<class name="com.javatpoint.afterClass.Class2"/>  
 		</classes>  
+		
 	</test> <!-- Test -->  
+	
 </suite> <!-- Suite -->  
