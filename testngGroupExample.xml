@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+   <test name="ToolsQA" >
+   		<groups>
+   			<run>
+   				<include name = "demo"></include>
+   			</run>
+   		</groups>
+       <classes> 
+          <class name="com.toolsqa.GroupExample" />
+       </classes>
+   </test>
+ </suite>

@@ -18,7 +18,7 @@ public class TestNGAssertions {
 	@Test (priority = -1)
 	public void OpenBrowser() {
 		Reporter.log("This test verifies the current selenium compatibility with TestNG by launching the chrome driver");
-	        Reporter.log("Launching Google Chrome Driver version 81 for this test"); 
+	    Reporter.log("Launching Google Chrome Driver version 81 for this test"); 
 	        
 	        driver.get("https://demoqa.com/");
 	        

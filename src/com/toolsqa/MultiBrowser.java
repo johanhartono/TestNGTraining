@@ -44,7 +44,8 @@ public WebDriver driver;
 
   // Once Before method is completed, Test method will start
 
-  @Test public void login() throws InterruptedException {
+  @Test 
+  public void login() throws InterruptedException {
 
 	driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[2]/div/div[1]/div/div[1]")).click();
 
@@ -52,7 +53,7 @@ public WebDriver driver;
 
   @AfterClass public void afterTest() {
 
-		driver.quit();
+		//driver.quit();
 
 	}
 

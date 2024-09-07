@@ -17,3 +17,4 @@ Problems: When Running TestNG , its does error on console output
 Solutions: Moving TestNG Library from ModulePath to ClassPath
 
 test your TestNG Knowledge: https://www.javatpoint.com/testng-interview-questions
+Asserts Documentation Guides: https://www.javadoc.io/doc/org.testng/testng/6.8.17/org/testng/Assert.html
