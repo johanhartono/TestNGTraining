@@ -10,6 +10,7 @@
     <classes>
       <class name="com.toolsqa.GroupExample">
         <methods>
+          <include name="click_element"/>
           <include name="checkTitle"/>
         </methods>
       </class> <!-- com.toolsqa.GroupExample -->

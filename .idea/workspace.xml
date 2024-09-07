@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="860eef20-8bd2-4ac0-8f62-12df113d0b32" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,9 +13,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2lYVykoOKF8TVZ3wdT9nCOZxvSG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,11 +27,94 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.C:/QAEngineer/github/TestNGTraining/testng.xml.executor": "Run",
+    "TestNG.C:/QAEngineer/github/TestNGTraining/testngAllPackages.xml.executor": "Run",
+    "TestNG.C:/QAEngineer/github/TestNGTraining/testngMultiBrowser.xml.executor": "Run",
+    "TestNG.Class1.executor": "Run",
+    "TestNG.GetBrowserTitle.executor": "Run",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/QAEngineer/github/TestNGTraining",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.C:/QAEngineer/github/TestNGTraining/testngMultiBrowser.xml">
+    <configuration name="C:/QAEngineer/github/TestNGTraining/testngAllPackages.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGTraining" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngAllPackages.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/QAEngineer/github/TestNGTraining/testngMultiBrowser.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGTraining" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngMultiBrowser.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/QAEngineer/github/TestNGTraining/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGTraining" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Class1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javatpoint.afterClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javatpoint.afterClass" />
+      <option name="MAIN_CLASS_NAME" value="com.javatpoint.afterClass.Class1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetBrowserTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.toolsqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.toolsqa" />
+      <option name="MAIN_CLASS_NAME" value="com.toolsqa.GetBrowserTitle" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/QAEngineer/github/TestNGTraining/testngMultiBrowser.xml" />
+        <item itemvalue="TestNG.C:/QAEngineer/github/TestNGTraining/testngAllPackages.xml" />
+        <item itemvalue="TestNG.C:/QAEngineer/github/TestNGTraining/testng.xml" />
+        <item itemvalue="TestNG.GetBrowserTitle" />
+        <item itemvalue="TestNG.Class1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
