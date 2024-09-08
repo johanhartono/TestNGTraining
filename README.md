@@ -1,7 +1,7 @@
 # TestNGTraining
 TestNG Training <br>
 Tools: <br>
-IDE: Eclipse, IntelliDJA, VSCode <br>
+IDE: Eclipse, IntelliDJA <br>
 Build Tools: Maven <br>
 
 Source: <br>
