@@ -1,7 +1,7 @@
 Tutorial Source: 
 1. Free: https://www.javatpoint.com/testng-tutorial
 2. Free: https://www.toolsqa.com/testng/what-is-testng/
-3. Paid: 
+3. Paid: Udemy https://www.udemy.com/course/selenium-webdriver-web-based-automation-testing/?couponCode=OF83024B
 
 TestNG Official web site: https://testng.org/#_welcome_to_testng
 

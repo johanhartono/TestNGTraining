@@ -23,18 +23,23 @@
         <configuration>
           <release>17</release>
         </configuration>
-      </plugin>
-                  <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version>
-                <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>
-                            testng.xml
-                        </suiteXmlFile>
-                    </suiteXmlFiles>
-                </configuration>
+     </plugin> 
+      
+     <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+           <artifactId>maven-surefire-plugin</artifactId>
+             <version>2.22.2</version>
+             <configuration>
+                <suiteXmlFiles>
+                  <suiteXmlFile>src/resources/testng.xml</suiteXmlFile>
+                 </suiteXmlFiles>
+                 <properties>
+                 	<Property>
+                 		<name>suitethreadpoolsize</name>
+                 		<value>2</value>
+                 	</Property>
+                 </properties>
+             </configuration>
             </plugin>
     </plugins>
     

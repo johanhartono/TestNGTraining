@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="860eef20-8bd2-4ac0-8f62-12df113d0b32" name="Changes" comment="" />
+    <list default="true" id="860eef20-8bd2-4ac0-8f62-12df113d0b32" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite_sequences/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite_sequences/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite_sequences/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite_sequences/Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-sequenceTestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-sequenceTestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite_sequences/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite_sequences/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite_sequences/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite_sequences/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite_sequences/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite_sequences/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite_sequences/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite_sequences/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite_sequences/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite_sequences/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite_sequences/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite_sequences/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite_sequences/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite_sequences/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,11 +55,14 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/QAEngineer/github/TestNGTraining",
+    "last_opened_file_path": "D:/QA software Tester/eclipse/WorkBench/TestNGTraining",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.C:/QAEngineer/github/TestNGTraining/testngMultiBrowser.xml">
+  <component name="RunManager" selected="TestNG.GetBrowserTitle">
     <configuration name="C:/QAEngineer/github/TestNGTraining/testngAllPackages.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGTraining" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testngAllPackages.xml" />
@@ -107,10 +129,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GetBrowserTitle" />
         <item itemvalue="TestNG.C:/QAEngineer/github/TestNGTraining/testngMultiBrowser.xml" />
         <item itemvalue="TestNG.C:/QAEngineer/github/TestNGTraining/testngAllPackages.xml" />
         <item itemvalue="TestNG.C:/QAEngineer/github/TestNGTraining/testng.xml" />
-        <item itemvalue="TestNG.GetBrowserTitle" />
         <item itemvalue="TestNG.Class1" />
       </list>
     </recent_temporary>
