@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [test_suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="TimeOut Program(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.javatpoint.annotations.Time_out">
+      <class name="futureTech9SkippingTest.SkippingExample">
         <methods>
-          <include name="testcase1"/>
+          <include name="testThree"/>
         </methods>
-      </class> <!-- com.javatpoint.annotations.Time_out -->
+      </class> <!-- futureTech9SkippingTest.SkippingExample -->
     </classes>
-  </test> <!-- TimeOut Program(failed) -->
-</suite> <!-- Failed suite [test_suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,33 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-08T13:35:03 WIB" name="test_suite" finished-at="2024-09-08T13:35:03 WIB" duration-ms="156">
+  <suite started-at="2024-09-08T17:24:51 WIB" name="Default suite" finished-at="2024-09-08T17:24:51 WIB" duration-ms="62">
     <groups>
     </groups>
-    <test started-at="2024-09-08T13:35:03 WIB" name="Module 1" finished-at="2024-09-08T13:35:03 WIB" duration-ms="49">
-      <class name="com.javatpoint.afterSuite.Module1">
-        <test-method signature="a_test()[pri:0, instance:com.javatpoint.afterSuite.Module1@15bb5034]" started-at="2024-09-08T13:35:03 WIB" name="a_test" finished-at="2024-09-08T13:35:03 WIB" duration-ms="10" status="PASS">
+    <test started-at="2024-09-08T17:24:51 WIB" name="Default test" finished-at="2024-09-08T17:24:51 WIB" duration-ms="62">
+      <class name="futureTech9SkippingTest.SkippingExample">
+        <test-method signature="testFour()[pri:0, instance:futureTech9SkippingTest.SkippingExample@28cda624]" started-at="2024-09-08T17:24:51 WIB" name="testFour" finished-at="2024-09-08T17:24:51 WIB" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- a_test -->
-        <test-method signature="b_test()[pri:0, instance:com.javatpoint.afterSuite.Module1@15bb5034]" started-at="2024-09-08T13:35:03 WIB" name="b_test" finished-at="2024-09-08T13:35:03 WIB" duration-ms="1" status="PASS">
+        </test-method> <!-- testFour -->
+        <test-method signature="testOne()[pri:0, instance:futureTech9SkippingTest.SkippingExample@28cda624]" started-at="2024-09-08T17:24:51 WIB" name="testOne" finished-at="2024-09-08T17:24:51 WIB" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- b_test -->
-      </class> <!-- com.javatpoint.afterSuite.Module1 -->
-    </test> <!-- Module 1 -->
-    <test started-at="2024-09-08T13:35:03 WIB" name="Module 2" finished-at="2024-09-08T13:35:03 WIB" duration-ms="4">
-      <class name="com.javatpoint.afterSuite.Module2">
-        <test-method signature="c_test()[pri:0, instance:com.javatpoint.afterSuite.Module2@6f01b95f]" started-at="2024-09-08T13:35:03 WIB" name="c_test" finished-at="2024-09-08T13:35:03 WIB" duration-ms="1" status="PASS">
+        </test-method> <!-- testOne -->
+        <test-method signature="testThree()[pri:0, instance:futureTech9SkippingTest.SkippingExample@28cda624]" started-at="2024-09-08T17:24:51 WIB" name="testThree" finished-at="2024-09-08T17:24:51 WIB" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Deliberately , As this test is incomplete]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Deliberately , As this test is incomplete
+at futureTech9SkippingTest.SkippingExample.testThree(SkippingExample.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- c_test -->
-        <test-method is-config="true" signature="after_suite()[pri:0, instance:com.javatpoint.afterSuite.Module2@6f01b95f]" started-at="2024-09-08T13:35:03 WIB" name="after_suite" finished-at="2024-09-08T13:35:03 WIB" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_suite -->
-      </class> <!-- com.javatpoint.afterSuite.Module2 -->
-    </test> <!-- Module 2 -->
-  </suite> <!-- test_suite -->
+        </test-method> <!-- testThree -->
+      </class> <!-- futureTech9SkippingTest.SkippingExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

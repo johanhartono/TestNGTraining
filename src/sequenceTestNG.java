@@ -1,3 +1,4 @@
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 //Sample Explanation the Usage for TestNg running sequences/hierarchies
@@ -29,6 +30,7 @@ public class sequenceTestNG {
 		int z;
 		z = 7+3;
 		System.out.println("Test 1 is running (given 7+3) = " + z);
+		Assert.assertEquals(10,11,"Expected 11 but its " + z);
 	}
 	
 	@Test

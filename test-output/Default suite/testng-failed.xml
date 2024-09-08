@@ -3,62 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.javatpoint.parameters.Sum">
+      <class name="futureTech9SkippingTest.SkippingExample">
         <methods>
-          <include name="add"/>
+          <include name="testThree"/>
         </methods>
-      </class> <!-- com.javatpoint.parameters.Sum -->
-      <class name="com.javatpoint.parameters.Fruits">
-        <methods>
-          <include name="mango"/>
-          <include name="orange"/>
-        </methods>
-      </class> <!-- com.javatpoint.parameters.Fruits -->
-      <class name="com.javatpoint.parameters.Subtract">
-        <methods>
-          <include name="add"/>
-        </methods>
-      </class> <!-- com.javatpoint.parameters.Subtract -->
-      <class name="com.javatpoint.parameters.Vegetable">
-        <methods>
-          <include name="orange"/>
-          <include name="c"/>
-        </methods>
-      </class> <!-- com.javatpoint.parameters.Vegetable -->
-      <class name="com.toolsqa.HardSoftAssertsExample">
-        <methods>
-          <include name="OpenBrowser1"/>
-          <include name="OpenBrowser2"/>
-        </methods>
-      </class> <!-- com.toolsqa.HardSoftAssertsExample -->
-      <class name="com.javatpoint.annotations.Time_out">
-        <methods>
-          <include name="testcase1"/>
-        </methods>
-      </class> <!-- com.javatpoint.annotations.Time_out -->
-      <class name="com.toolsqa.MultiBrowser">
-        <methods>
-          <include name="login"/>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-        </methods>
-      </class> <!-- com.toolsqa.MultiBrowser -->
-      <class name="com.toolsqa.TestNGAssertions">
-        <methods>
-          <include name="OpenBrowser"/>
-        </methods>
-      </class> <!-- com.toolsqa.TestNGAssertions -->
-      <class name="com.javatpoint.parameters.Multiply">
-        <methods>
-          <include name="add"/>
-        </methods>
-      </class> <!-- com.javatpoint.parameters.Multiply -->
-      <class name="com.toolsqa.GroupExample">
-        <methods>
-          <include name="click_element"/>
-          <include name="checkTitle"/>
-        </methods>
-      </class> <!-- com.toolsqa.GroupExample -->
+      </class> <!-- futureTech9SkippingTest.SkippingExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
