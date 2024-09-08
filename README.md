@@ -1,5 +1,8 @@
 # TestNGTraining
 TestNG Training <br>
+Tools: <br>
+IDE: Eclipse, IntelliDJA, VSCode <br>
+Build Tools: Maven <br>
 
 Source: <br>
 1. https://www.javatpoint.com/testng-tutorial <br>
