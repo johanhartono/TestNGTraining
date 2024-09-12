@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="futureTech9SkippingTest.SkippingExample">
+      <class name="futureTech9ExtentReport.ExtenteInitialization">
         <methods>
-          <include name="testThree"/>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="LoginTest"/>
         </methods>
-      </class> <!-- futureTech9SkippingTest.SkippingExample -->
+      </class> <!-- futureTech9ExtentReport.ExtenteInitialization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

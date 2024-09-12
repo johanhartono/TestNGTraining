@@ -20,7 +20,7 @@ public class FailedTestsReport {
 		spark.config().setDocumentTitle("My First Exxtend Report");
 
 		ExtentSparkReporter failedTestspark = new ExtentSparkReporter("target/Spark/failedTests-index.html").filter()
-				.statusFilter().as(new Status[] { Status.FAIL }).apply();
+				.statusFilter().as(new Status[] { Status.FAIL,Status.SKIP }).apply();
 
 		extent.attachReporter(spark, failedTestspark);
 
@@ -46,6 +46,11 @@ public class FailedTestsReport {
 		profilePageTest.info("Click on Profile.");
 		profilePageTest.pass("Test Success....");
 
+		ExtentTest timelinePageTest = extent.createTest("Facebook TimeLine Page Test");
+		timelinePageTest.info("Enter to FaceBook TimeLinePage");
+		timelinePageTest.info("Click on Profile.");
+		timelinePageTest.skip("Test Success....");
+		
 		extent.flush();
 	}
 }
